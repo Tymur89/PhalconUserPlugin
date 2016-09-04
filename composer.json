@@ -34,8 +34,5 @@
         "branch-alias": {
             "dev-master": "2.0-dev"
         }
-    },
-    "scripts": {
-        "post-update-cmd": "Phalcon\\UserPlugin\\Migration\\Db::migrate"
     }
 }
